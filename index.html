@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d05c7f4eae.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,19 +31,19 @@
                     <nav>
                         <ul class="menu">
                             <li><a href="">Home</a></li>
-                            <li><a href="">Products</a>
-                                <!-- <ul class="submenu">
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                    <li class="submenu-item"><a href="" class="submenu-link">product item 1</a></li>
-                                </ul></li> -->
+                            <li><a href="" class="dropdown">Products&nbsp;<i class="fas fa-angle-down"></i>
+                            </a>
+                                <ul class="submenu">
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                    <li><a href="" >product item</a></li>
+                                </ul></li> 
                             <li><a href="">Payment</a></li>
-                            <li><a href="">Shipping</a></li>
-                           
+                            <li><a href="">Shipping</a></li>                           
                         </ul>
                     </nav>
                 </div>
@@ -50,15 +51,19 @@
                     <div class="row">
                         <div class="col-9">
                             <form action="" class="search">
-                                <input type="text">
-                                <button>
-
+                                <input type="text" placeholder="search" class="search-field">
+                                <button class="search-btn">
+                                    <i class="fas fa-search"></i>
                                 </button>
                             </form>
-
                         </div>
                         <div class="col-3">
-
+                            <div class="cart">                        
+                                <div class="product-count">
+                                   4
+                                </div>
+                                <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
